@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title> Homepage </title>
+
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel= "stylesheet" type"text/css" href="style.css">
+
+	</head>
+
+	<body style="background-color:AliceBlue;">
+		<div align="center"><h1 id = "Header1"> <strong>Welcome to my page!</strong></h1></div>
+		<a href = "aboutme.html" class="btn btn-primary">About me</a>
+		<a href = "portfolio.html" class="btn btn-primary">Portfolio</a>
+
+	<h2>Blogging</h2>
+	<p>11/1/19 - Time management will always be an important skill, as time is a limited resource.<br>
+	Know which tasks and goals need to be completed first.</p>
+	
+	<p>10/15/19 - The amount of time put into something does not always equal to the work output result.
+	There will be times when you understand something really quickly, and there will be times when it takes
+	a little longer. Be patient with yourself, and seek assistance when needed.</p>
+
+	<p>10/1/19 - There will be days where you feel the best, and there will be days that you will feel not the greatest.
+	Take the time to take care of yourself, to make sure you're feeling energized and refreshed!</p>
+
+	<img src = "https://oukosher.org/content/uploads/sites/2/2013/01/Coffee-and-Tea.jpg" height = "300px" width = "450px">
+	
+	<p></p>
+	<h2>Java</h2>
+		Here are a few topics we have covered in Java:
+		<ul>
+			<li>Object-oriented programming</li>
+			<li>Data structures and algorithms</li>
+			<li>Databases</li>
+			<li>HTML/CSS</li>
+		</ul>
+
+
+	<h2>Ypsilanti, Michigan</h2>
+	<img src= "https://i.pinimg.com/originals/e7/1a/8f/e71a8f5bd9e2f947fd071eb86b2ed282.jpg" height = "300px" width = "450px">
+
+	<p></p>
+	<p>There are many people that misprounce Ypsilanti (it's pronounced as 
+	IP-sil-AN-tee) for those who don't recognize the city. Ypsilanti, located east of Ann Arbor,
+	home of Eastern Michigan University, is an historic city founded in the early 1800s.</p>
+
+	<p>Notable people that were from Ypsilanti include Adam Gase (New York Jets head coach),
+	Russell C. Ostrander (former mayor of Lansing and Chief Justice of the Michigan Supreme Court),
+	and Walter Briggs Sr (Detroit Tigers owner from 1919-1952).</p>
+
+		<a href = "home.html">Go to top</a>
+
+	<script>
+	window.onscroll = function() {myFunction()};
+
+	var header = document.getElementById("Header1");
+	var sticky = header.offsetTop;
+
+	function myFunction() {
+ 	 if (window.pageYOffset > sticky) {
+    	header.classList.add("sticky");
+  	} else {
+    	header.classList.remove("sticky");
+  	}
+	}
+	</script>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	</body>
+</html>
